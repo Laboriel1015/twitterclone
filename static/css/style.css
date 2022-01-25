@@ -1,0 +1,210 @@
+/* 
+COMMENT
+*************/
+
+html,
+body {
+  height: 100%;
+}
+
+.content {
+  max-width: 600px;
+  height: 100%;
+  margin: 0 auto;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+
+h1 {
+  font-family: monospace;
+  font-size: 35px;
+}
+
+.home_logo {
+  display: flex;
+  padding-left: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.home_logo img {
+  height: 60px;
+}
+
+.home_logo a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  padding-top: 4%;
+  padding-left: 10px;
+}
+
+/* 
+POST
+*************/
+
+.post_form {
+  padding: 20px 40px;
+  border-bottom: 1px solid #ccc;
+  padding: 20px 40px;
+}
+
+.post_form input {
+  border: 0px;
+  width: 100%;
+  background: #e6fef7;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+#tweet {
+  width: 65px;
+  background-color: rgb(29, 161, 242);
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  border-radius: 10%;
+  margin-left: 247px;
+}
+
+#file {
+  width: 35%;
+  background: white;
+}
+
+.post_form textarea {
+  border: 0px;
+  padding: 10px;
+  width: 100%;
+  height: 100px;
+  resize: none;
+}
+
+.posts ul {
+  padding: 0;
+}
+
+.posts li {
+  position: relative;
+  display: flex;
+  border-bottom: 1px solid #ccc;
+  padding: 17px;
+  list-style: none;
+}
+
+.posts li .menu_icon {
+  width: 20px;
+  position: absolute;
+  right: 30px;
+  top: 10px;
+}
+
+.posts li .menu {
+  display: none;
+  position: absolute;
+  top: 40px;
+  right: 15px;
+  border: 1px solid #ccc;
+  background-color: white;
+  padding: 10px 15px;
+  font-size: 13px;
+  border-radius: 3px;
+}
+
+.posts li .menu a {
+  text-decoration: none;
+}
+
+.posts li .logo {
+  flex-basis: 15%;
+}
+
+.posts li .logo img {
+  width: 60%;
+}
+
+.posts li .name_body {
+  flex-basis: 85%;
+}
+
+.like {
+  height: 22px;
+}
+
+.like-button {
+  display: contents;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.datetime {
+  color: gray;
+}
+
+@media screen and (max-width: 500px) {
+  .posts li .name_body .name {
+    font-size: 20px;
+  }
+}
+
+#btnn {
+  width: 10%;
+  background-color: rgb(145, 162, 173);
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 5%;
+  border: 1px solid transparent;
+  padding: 10px;
+  border: 1px solid rgb(145, 162, 173);
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 65%;
+}
+
+#btnn:hover {
+  background-color: rgb(44, 44, 46);
+}
+.tweet {
+  display: inline;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  padding-top: 8px;
+}
+#btn:hover {
+  background-color: blue;
+}
+
+#btn {
+  width: 20%;
+  background-color: rgb(29, 161, 242);
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 5%;
+  border: 1px solid transparent;
+  padding: 10px;
+  border: 1px solid rgb(29, 161, 242);
+  cursor: pointer;
+}
+
+.logo {
+  height: 50px;
+  margin-right: 20px;
+}
+
+.header a {
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-bottom: 0px;
+    line-height: 20px;
+    color: rgb(29, 161, 242);
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
