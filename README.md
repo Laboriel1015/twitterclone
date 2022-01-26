@@ -17,4 +17,5 @@ Check out [LIVE Twitter clone DEMO](https://twitter-clone-laboriel.herokuapp.com
 * Users can send a like to a tweet.
 
 
-<img width="960" alt="TwitterCloneS" src="https://user-images.githubusercontent.com/95891258/151095083-ca5f2eeb-3570-46fb-9357-f10f47dedd43.png">
+
+<img width="960" alt="TwitterCloneS" src="https://user-images.githubusercontent.com/95891258/151095289-5498cf7d-30a5-42f5-9a9e-3956b6886fd6.png">
