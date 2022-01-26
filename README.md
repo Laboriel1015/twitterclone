@@ -16,4 +16,5 @@ Check out [LIVE Twitter clone DEMO](https://twitter-clone-laboriel.herokuapp.com
 * Users can delete tweets.
 * Users can send a like to a tweet.
 
-<img width="960" alt="Untitled" src="https://user-images.githubusercontent.com/95891258/151094814-10ce540c-7103-4759-8d94-e30dcf38a215.png">
+
+<img width="960" alt="TwitterCloneS" src="https://user-images.githubusercontent.com/95891258/151095083-ca5f2eeb-3570-46fb-9357-f10f47dedd43.png">
